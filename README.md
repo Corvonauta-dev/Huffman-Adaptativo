@@ -34,14 +34,14 @@ Implementar, auditar e analisar a robustez do algoritmo FGK em testes cruzados, 
 
 A árvore binária utilizada é composta por nós contendo símbolo, peso, ordem (identificador único decrescente), ponteiros para pai e filhos esquerdo/direito. Um vetor de acesso rápido (`folha[ALFABETO]`) mantém o endereço das folhas existentes, acelerando a busca e atualização.
 
-![fig1](https://github.com/user-attachments/assets/f6677a35-d493-4ca1-bf3a-442372e5dc4c)
+![fig1](https://github.com/user-attachments/assets/f1eb93f2-df60-4b30-b7d9-413930fd4d24)
 *Figura 1: Estrutura do nó da árvore FGK.*
 
 ## Exemplos Visuais
 
 Abaixo, a árvore real gerada pela implementação após processar a string `"Corvonauta"`:
 
-![fig4](https://github.com/user-attachments/assets/ed7f5f65-9253-468d-826a-d11ac2f70fe3)
+![fig4](https://github.com/user-attachments/assets/dac8bd9d-de0f-48bd-b206-f2c1002480b8)
 *Figura 2: Árvore binária gerada a partir do log da execução FGK.*
 
 ## Compilação
